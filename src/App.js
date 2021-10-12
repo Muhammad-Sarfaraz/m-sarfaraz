@@ -11,12 +11,10 @@ import { HOME_URL } from "./routes/Web";
 
 function App() {
 
-  const [loading,setLoading]=useContext(LoadingContext);
-
   return (
     <StaticRouter>
       <Switch>
-        <Route path="/" exact>
+        <Route path={HOME_URL} exact>
           <Home />
         </Route>
 
