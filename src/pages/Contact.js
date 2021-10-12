@@ -1,26 +1,19 @@
 import React from "react";
-import { useContext } from "react";
-import { LoadingContext } from "../contexts/LoadingContext";
-
 
 import Footer from "../components/Footer";
 import Social from "../components/Social";
-import Bio from "../components/Bio";
 import Hobby from "../components/Hobby";
-import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 
-const Home = () => {
-  const { isLoaded } = useContext(LoadingContext);
-
-  return (
+const NotFound=()=>{
+return (
     <div>
       <div className="container">
         <div className="grid">
           <div className="row">
             <Hobby />
             <div className="col-3">
-              <Bio />
-              <Portfolio />
+            <Contact />
             </div>
             <Social />
           </div>
@@ -28,7 +21,7 @@ const Home = () => {
         <Footer />
       </div>
     </div>
-  );
-};
+)
+}
 
-export default Home;
+export default NotFound;
