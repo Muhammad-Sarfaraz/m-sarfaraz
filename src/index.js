@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import {APIProvider} from './context/Api'
+import { LoadingProvider } from './contexts/LoadingContext';
+
 ReactDOM.render(
   <React.StrictMode>
-    <APIProvider>
+     <LoadingProvider>
       <App />
-    </APIProvider>
+      </LoadingProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

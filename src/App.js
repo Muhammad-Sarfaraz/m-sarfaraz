@@ -1,20 +1,22 @@
+import React from "react";
 import { StaticRouter, Switch, Route, Link } from "react-router-dom";
-import { Fragment, useCallback, useContext, useEffect, useState } from "react";
+import { useState,useContext } from "react";
 
 import Home from "./pages/Home";
-import NotFound from "./pages/Home";
-import { APIContext } from "./context/Api";
-import {HOME_URL} from './routes/Web';
+import NotFound from "./pages/404";
+
+import { LoadingContext } from "./contexts/LoadingContext";
+
+import { HOME_URL } from "./routes/Web";
+
 function App() {
 
-  const [data, setData] = useContext(APIContext);
-
-  console.log(setData);
+  const [loading,setLoading]=useContext(LoadingContext);
 
   return (
     <StaticRouter>
       <Switch>
-        <Route path={HOME_URL} exact>
+        <Route path="/" exact>
           <Home />
         </Route>
 
