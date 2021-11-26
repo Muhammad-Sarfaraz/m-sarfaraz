@@ -14,7 +14,7 @@ const Social = () => {
         <a href="https://twitter.com/sarfarax71" target="__blank">
           Twitter
         </a>
-        <a href="https://twitter.com/faraz81" target="__blank">Instagram</a>
+        <a href="https://www.instagram.com/sarfaraz_safien" target="__blank">Instagram</a>
       </nav>
     </div>
   );
