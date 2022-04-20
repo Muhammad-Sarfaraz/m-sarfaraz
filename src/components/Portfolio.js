@@ -57,21 +57,6 @@ const Portfolio = () => {
         </section>
       </a>
 
-      <a href='https://tinishopbd.com/' target='__blank'>
-        <section className='project'>
-          <div className='project-icon'>
-            <img src={PYF} alt='pyf' />
-          </div>
-          <div className='project-description'>
-            <h1>Tinishop</h1>
-            <h2>Web — June 2021</h2>
-            <p className='p-sm'>
-              Developed an e-commerce solution for Tinishop.
-            </p>
-          </div>
-        </section>
-      </a>
-
       <a href='http://innodlab.com/' target='__blank'>
         <section className='project'>
           <div className='project-icon'>
