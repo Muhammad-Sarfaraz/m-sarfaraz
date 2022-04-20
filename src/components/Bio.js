@@ -11,12 +11,12 @@ const Bio = () => {
       <p>
         I’m a Polyglot Codeslinger (Software Engineer) currently living in
         Dhaka,Bangladesh. 🏔 I spend my days working at
-        <a href="http://triplesgroupbd.com/" className="text-red">
+        <a href="http://triplesgroupbd.com/" className="text-red" style={{marginLeft : 2}}>
           TripleSGroup
         </a>
         . My nights are spent building the
-        <a href="https://github.com/AvatarPHP" className="text-magenta">
-          AvatarPHP
+        <a href="https://github.com/AvatarPHP" className="text-magenta" style={{marginLeft : 2}}>
+           AvatarPHP
         </a>{" "}
         and working on my various open source projects.
       </p>
