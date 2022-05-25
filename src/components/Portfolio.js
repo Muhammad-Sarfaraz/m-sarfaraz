@@ -10,10 +10,28 @@ import JamalpurBazar from '../assets/images/jamalpurbajar.png'
 import Tinishop from '../assets/images/tinishop.png'
 import NorthCote from '../assets/images/northcote.png'
 import MrPropertyBazar from '../assets/images/mrpropertybazar.png'
+import ICULagbe from '../assets/images/icu-lagbe.png'
 
 const Portfolio = () => {
   return (
     <div>
+      <a href='https://icu-lagbe.com/' target='__blank'>
+        <section className='project'>
+          <div className='project-icon'>
+            <img src={ICULagbe} alt='icu-lagbe' />
+          </div>
+          <div className='project-description'>
+            <h1>icu-lagbe</h1>
+            <h2>Web — June 2020</h2>
+            <p className='p-sm'>
+             One of my favourite Hobby Project ❤️
+             Get the information of ICU Or hospital beds availability in
+              Bangladesh.
+            </p>
+          </div>
+        </section>
+      </a>
+
       <a href='https://mrpropertybazar.com/' target='__blank'>
         <section className='project'>
           <div className='project-icon'>
@@ -132,7 +150,6 @@ const Portfolio = () => {
           </div>
           <div className='project-description'>
             <h1>School 360</h1>
-
             <p className='p-sm'>
               Designed and developed Madrasha-Board section.
             </p>
