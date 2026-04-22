@@ -1,4 +1,4 @@
-# m-sarfaraz.com
+# m-sarfaraz
 
 A personal portfolio website for Muhammad Sarfaraz, showcasing projects, skills, and professional experience.
 
